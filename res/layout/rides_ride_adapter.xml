@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                  android:layout_height="wrap_content" android:id="@+id/linearLayout2">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Id:" android:id="@+id/textView4" android:layout_marginRight="5dp"
+                  android:textColor="@android:color/white" android:textSize="18sp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/textView_id_ride" android:maxLines="1" android:ellipsize="end" android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data da carona:"
+                android:id="@+id/textView"
+                android:layout_marginRight="5dp"
+                android:textColor="@android:color/holo_blue_light" />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_dataCarona"
+
+                android:maxLines="1"
+                android:ellipsize="end"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_confirmed_ride"
+                android:id="@+id/textView2" android:layout_marginRight="5dp"
+                android:textColor="@android:color/holo_blue_light" />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_paid" />
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                  android:layout_height="wrap_content" android:layout_marginTop="3dp"
+                  android:layout_marginBottom="3dp" android:id="@+id/linearLayout">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="@string/text_confirmed_payment" android:id="@+id/textView3"
+                  android:layout_marginRight="5dp" android:textColor="@android:color/holo_blue_light"
+                  />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/textView_received" />
+    </LinearLayout>
+
+</LinearLayout>

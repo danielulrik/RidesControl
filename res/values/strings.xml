@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RidesControl</string>
+    <string name="text_nao">Não</string>
+    <string name="text_confirmed_ride">A carona foi paga pelo usuário?</string>
+    <string name="text_confirmed_payment">A carona foi enviada ao servidor?</string>
+    <string name="text_send_data">Enviar dados</string>
+    <string name="text_synchronize">Receber dados</string>
+    <string name="text_rides">Rides</string>
+    <string name="format_date">dd-MM</string>
+    <string name="text_sim">Sim</string>
+    <string name="msg_remove_ride">Você deseja remover a carona dada em %1$s dos registros?</string>
+    <string name="msg_removed_ride_success">A carona dada em %1$s foi removida com sucesso.</string>
+    <string name="text_attention">Atenção</string>
+    <string name="msg_received_ride_server">Esta carona já foi recebida pelo servidor.</string>
+    <string name="text_wait">Aguarde...</string>
+    <string name="text_payment">º payment</string>
+    <string name="payment_number">"Payment nº "</string>
+    <string name="day_tuesday">Terça</string>
+</resources>

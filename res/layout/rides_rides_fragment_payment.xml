@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/linearLayout_pagamentos_realizados"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payments made:"
+                android:id="@+id/textView"
+                android:layout_marginRight="5dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/holo_blue_dark"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/text_view_count_number_of_payments" android:textSize="20sp"/>
+    </LinearLayout>
+
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView_payments"
+            android:layout_above="@+id/linearLayout_buttons"
+            android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp"
+            android:layout_below="@+id/linearLayout_pagamentos_realizados"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true"
+                  android:id="@+id/linearLayout_buttons">
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Receive payments"
+                android:id="@+id/button_synchronize"
+                android:layout_weight="1"
+                />
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Send payments"
+                android:id="@+id/button_sendData"
+                android:layout_weight="1"
+                />
+    </LinearLayout>
+</RelativeLayout>

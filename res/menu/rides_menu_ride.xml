@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/new_ride"
+          android:title="New"
+          android:showAsAction="always"
+          android:icon="@drawable/ic_new"/>
+
+    <item android:id="@+id/add_ride_today"
+          android:title="Add today's ride"
+          android:showAsAction="always"
+          android:icon="@android:drawable/ic_menu_today"/>
+
+    <item android:id="@+id/delete_all"
+          android:title="Delete all"
+          android:showAsAction="never"
+          android:icon="@android:drawable/ic_delete"/>
+
+</menu>
